@@ -1,0 +1,1705 @@
+html,
+body {
+  background-color: #101716;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; }
+
+/*-------------------------------------------------------------------*/
+/*----------------------------MAIN MENU-----------------------------*/
+/*-----------------------------------------------------------------*/
+#main-menu {
+  padding: 0px;
+  position: absolute;
+  z-index: 11;
+  width: 100%; }
+  #main-menu #logo {
+    padding: 0px;
+    margin: 0px;
+    margin-left: -29px;
+    position: absolute;
+    z-index: 2;
+    top: 2px; }
+    #main-menu #logo a {
+      display: block;
+      background: url("../img/header-logo.png") no-repeat 0px 0px;
+      text-indent: -10000px;
+      width: 69px;
+      height: 88px; }
+
+.navbar {
+  padding: 0px;
+  padding-left: 5.5%;
+  margin: 0px;
+  border: none;
+  background-color: transparent; }
+  .navbar .container-fluid {
+    padding: 0px; }
+
+.navbar-collapse {
+  padding: 0px;
+  border: none;
+  background-color: #101716;
+  position: relative; }
+  .navbar-collapse::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 138px;
+    height: 79px;
+    background-image: url("../img/header-menu-borderleft.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0px; }
+
+.nav {
+  padding-left: 3.2%;
+  display: table;
+  position: relative; }
+  .nav::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1000%;
+    height: 7px;
+    background-color: #cb3028;
+    top: 100%;
+    left: 100%; }
+
+#menu .nav li {
+  display: table-cell;
+  float: none; }
+  #menu .nav li a {
+    color: #fff;
+    font-family: "nulshockbold";
+    font-size: 16px;
+    line-height: 32px;
+    transition: 0.3s;
+    white-space: nowrap;
+    padding: 15px 14px; }
+  #menu .nav li a:focus,
+  #menu .nav li a:hover {
+    background-color: #c8302e; }
+
+#menu .nav li.active > a {
+  background-color: #c8302e; }
+
+/*-------------------------------------------------------------------*/
+/*--------------------------HEADER SLIDER---------------------------*/
+/*-----------------------------------------------------------------*/
+#flex-slider {
+  padding: 0px;
+  position: relative;
+  width: 100%;
+  top: 0px;
+  z-index: 0; }
+  #flex-slider #carousel-banner {
+    height: 37.5vw;
+    overflow: hidden; }
+
+#flex-slider .carousel-inner .item img {
+  width: 100%; }
+#flex-slider .carousel-inner .item .carousel-caption {
+  text-align: left;
+  top: 18.9%;
+  right: 20.6%;
+  left: 20.6%;
+  padding: 0px;
+  text-shadow: none;
+  background: url("../img/header-slider-icon.png") no-repeat 0px 0px;
+  padding-top: 4px;
+  padding-left: 31px; }
+  #flex-slider .carousel-inner .item .carousel-caption h2 {
+    color: #101716;
+    font-family: "nulshockbold";
+    font-size: 1.67vw;
+    line-height: 2vw;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #fff; }
+  #flex-slider .carousel-inner .item .carousel-caption h3 {
+    display: none; }
+  #flex-slider .carousel-inner .item .carousel-caption p > a {
+    display: inline-block;
+    background-color: #c8302e;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 12px 14px;
+    transition: 0.3s;
+    font-family: "nulshockbold";
+    margin-top: 15px; }
+  #flex-slider .carousel-inner .item .carousel-caption p > a:hover {
+    text-decoration: none;
+    background-color: #101716; }
+
+#flex-slider .carousel-control {
+  display: block;
+  opacity: 0;
+  transition: 0.3s; }
+  #flex-slider .carousel-control:hover {
+    opacity: 1; }
+  #flex-slider .carousel-control span {
+    display: none; }
+
+#flex-slider .carousel-control.left {
+  background: url("../img/header-slider-prev.png") no-repeat left center;
+  left: 0px; }
+
+#flex-slider .carousel-control.right {
+  background: url("../img/header-slider-next.png") no-repeat right center;
+  right: 0px; }
+
+.header-subtitle {
+  top: 14vw;
+  position: absolute;
+  max-width: 980px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 32px;
+  padding-top: 23px;
+  background: url("../img/header-slider-icon.png") no-repeat left top;
+  color: #101716;
+  text-shadow: 1px 1px 1px #fff;
+  font-family: "nulshockbold";
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  left: 50%;
+  margin-left: -28vw; }
+
+.page-template-page-the-game .header-subtitle {
+  top: 220px; }
+
+.header-background {
+  background-size: cover;
+  min-height: 320px;
+  height: 26.6vw;
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding: 0px;
+  overflow: hidden; }
+
+body .the-game-bg {
+  background-image: url("../img/the-game-header-img.jpg");
+  height: 350px;
+  overflow: hidden;
+  background-size: cover;
+  padding: 0px; }
+
+.main-bg {
+  width: 1920px;
+  left: 50%;
+  margin-left: -960px;
+  position: relative; }
+
+.single-wiki .header-background {
+  background-image: url("../img/default.jpg"); }
+
+.single-wiki .bg-inner img,
+.single-wiki .bg-inner .second-bg {
+  display: none; }
+
+/*-------------------------------------------------------------------*/
+/*-----------------------------CONTENT------------------------------*/
+/*-----------------------------------------------------------------*/
+#main-content,
+.content-wrapper {
+  background-color: #101716;
+  background-image: url("../img/content-bg.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100%;
+  padding: 0px;
+  z-index: 1;
+  position: relative; }
+  #main-content #main-content-inner,
+  #main-content .content,
+  .content-wrapper #main-content-inner,
+  .content-wrapper .content {
+    width: 100%;
+    padding: 0px;
+    position: relative; }
+    #main-content #main-content-inner .row,
+    #main-content .content .row,
+    .content-wrapper #main-content-inner .row,
+    .content-wrapper .content .row {
+      margin-left: 0px;
+      margin-right: 0px;
+      clear: both; }
+  #main-content #main-content-inner,
+  .content-wrapper #main-content-inner {
+    margin-top: -54px;
+    max-width: 966px; }
+  #main-content .content,
+  .content-wrapper .content {
+    max-width: 956px;
+    padding: 0px 10px 10px;
+    margin-top: -62px;
+    background-color: #000; }
+    #main-content .content::before, #main-content .content::after,
+    .content-wrapper .content::before,
+    .content-wrapper .content::after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 5px;
+      height: 57px;
+      background-color: #c8302e;
+      top: -5px; }
+    #main-content .content::before,
+    .content-wrapper .content::before {
+      right: 100%; }
+    #main-content .content::after,
+    .content-wrapper .content::after {
+      left: 100%; }
+
+.content-inner {
+  position: relative;
+  background-image: url("../img/inner-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100%;
+  min-height: 500px;
+  height: 100%; }
+  .content-inner::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: calc(100% + 10px);
+    height: calc(100% + 5px);
+    left: -5px;
+    top: 0px;
+    z-index: 0;
+    background-image: url("../img/inner-vertical-border.png"), url("../img/inner-vertical-border.png"), url("../img/inner-horizontal-border.png");
+    background-repeat: repeat-y, repeat-y, repeat-x;
+    background-position: left top, right top, left bottom; }
+
+.content-wrapper {
+  border-top: 5px solid #c8302e; }
+
+.content {
+  border-top: 5px solid #c8302e; }
+
+#main-content-inner::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #c8302e;
+  width: 500px;
+  height: 5px;
+  left: 100%;
+  top: 54px; }
+
+.path {
+  padding: 0px;
+  position: relative;
+  z-index: 10; }
+  .path .content-subtitle {
+    margin: 0px;
+    margin-top: -5px;
+    margin-left: -10px;
+    display: block;
+    background-color: #c8302e;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 18px;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: -0.5px;
+    padding: 15px 10px; }
+  .path .bread {
+    padding: 0px; }
+  .path .archive {
+    padding: 0px; }
+    .path .archive .archive-dropdown {
+      background-color: #222;
+      height: 57px;
+      color: #fff;
+      font-family: "Open Sans";
+      font-size: 15px;
+      line-height: 25px;
+      font-weight: 700;
+      border: none;
+      width: calc(100% + 21px);
+      padding-left: 20px;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      outline: none;
+      background-image: url("../img/archive-arrow.png");
+      background-repeat: no-repeat;
+      background-position: 92% center; }
+      .path .archive .archive-dropdown option {
+        outline-color: #c8302e; }
+
+#crumbs {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  height: 57px;
+  margin: 0px;
+  padding: 0px;
+  padding-left: 20px;
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 12px;
+  line-height: 12px;
+  background-color: #000; }
+  #crumbs a {
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    transition: 0.3s; }
+    #crumbs a:hover {
+      text-decoration: none;
+      color: #c8302e; }
+
+.wiki-menu {
+  position: relative;
+  min-height: 57px; }
+  .wiki-menu .toggle {
+    width: 100%;
+    background-color: rgba(54, 54, 54, 0.9);
+    background-image: url("../img/wiki-menu-icon.png");
+    background-repeat: no-repeat;
+    background-position: 94% center;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px; }
+    .wiki-menu .toggle:hover, .wiki-menu .toggle:focus {
+      text-decoration: none; }
+    .wiki-menu .toggle h2 {
+      text-align: right;
+      padding-right: 19%;
+      color: #fff;
+      font-family: "Open Sans";
+      font-size: 18px;
+      line-height: 56px;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin: 0px;
+      transition: 0.3s; }
+      .wiki-menu .toggle h2:hover {
+        text-decoration: none;
+        color: #d13017; }
+  .wiki-menu .wiki-main-menu {
+    display: none;
+    position: absolute;
+    z-index: 30;
+    background-color: rgba(54, 54, 54, 0.9);
+    color: #fff;
+    top: 56px;
+    left: 0px;
+    list-style-type: none;
+    padding: 10px 30px;
+    width: 100%; }
+    .wiki-menu .wiki-main-menu .wiki-menu-item a {
+      color: #fff;
+      width: 100%;
+      transition: 0.3s;
+      font-size: 16px;
+      line-height: 30px;
+      font-family: "Open Sans"; }
+      .wiki-menu .wiki-main-menu .wiki-menu-item a:focus, .wiki-menu .wiki-main-menu .wiki-menu-item a:hover {
+        text-decoration: none;
+        color: #d13017; }
+    .wiki-menu .wiki-main-menu .has-children {
+      display: table-cell;
+      padding-right: 20px;
+      background-image: url("../img/wiki-menu-arrow.png");
+      background-repeat: no-repeat;
+      background-position: right center; }
+    .wiki-menu .wiki-main-menu .wiki-menu-subitem a,
+    .wiki-menu .wiki-main-menu .wiki-menu-item .single {
+      display: block; }
+    .wiki-menu .wiki-main-menu ul {
+      display: none;
+      list-style-type: none;
+      padding-left: 10px; }
+
+/*-------------Pretty Photo----------------*/
+.page-template-page-media-php .pp_hoverContainer {
+  margin-top: 21px;
+  /*height: 489px!important;*/ }
+.page-template-page-media-php div.pp_default .pp_content {
+  height: 0px !important; }
+.page-template-page-media-php .pp_fade {
+  position: relative; }
+.page-template-page-media-php div.pp_default .pp_content_container .pp_details {
+  width: 750px;
+  position: absolute;
+  top: -38px;
+  background-color: #000; }
+.page-template-page-media-php div.pp_default .pp_nav {
+  width: 0px !important;
+  height: 50px; }
+.page-template-page-media-php div.pp_default .pp_nav .pp_play,
+.page-template-page-media-php div.pp_default a.pp_arrow_next,
+.page-template-page-media-php div.pp_default a.pp_arrow_previous,
+.page-template-page-media-php div.pp_default .pp_nav .currentTextHolder {
+  display: none; }
+.page-template-page-media-php div.pp_default .pp_description {
+  font-family: "Open Sans";
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  font-weight: 400;
+  margin: 16px; }
+.page-template-page-media-php div.pp_default .pp_close {
+  background: url("../img/gallery-close.png") no-repeat center;
+  width: 54px;
+  height: 54px;
+  transition: 0.3s; }
+.page-template-page-media-php div.pp_default .pp_expand {
+  top: -20px;
+  right: 50px; }
+.page-template-page-media-php div.pp_default .pp_social {
+  display: none; }
+.page-template-page-media-php div.pp_default .pp_top,
+.page-template-page-media-php div.pp_default .pp_bottom {
+  display: none; }
+.page-template-page-media-php div.pp_default .pp_left,
+.page-template-page-media-php div.pp_default .pp_right {
+  background: none !important; }
+.page-template-page-media-php a.pp_next,
+.page-template-page-media-php div.pp_default a.pp_next:hover {
+  background: none; }
+.page-template-page-media-php div.pp_default a.pp_next:hover {
+  background: url("../img/right.gif");
+  background-repeat: no-repeat;
+  background-position: 95% center; }
+.page-template-page-media-php a.pp_previous,
+.page-template-page-media-php div.pp_default a.pp_previous:hover {
+  background: none; }
+.page-template-page-media-php div.pp_default a.pp_previous:hover {
+  background: url("../img/left.gif");
+  background-repeat: no-repeat;
+  background-position: 5% center; }
+
+.page-template-page-download strong {
+  display: inline-block;
+  background-color: #c8302e;
+  color: #fff;
+  padding: 15px 10px 5px 18px;
+  font-weight: 800;
+  font-size: 18px;
+  margin-right: 10px;
+  margin-top: -13px;
+  height: 38px; }
+
+.page-template-page-blog .content-bottom span {
+  display: block;
+  width: 100%;
+  height: 173px;
+  background-image: url("../img/placeholder-img.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #222; }
+
+.content-bottom {
+  position: relative;
+  z-index: 9;
+  width: calc(100% - 10px);
+  margin: 0px 5px 5px !important; }
+  .content-bottom .load-more {
+    padding: 0px; }
+    .content-bottom .load-more .alm-load-more-btn {
+      background-color: #d13017;
+      border: none;
+      color: #fff;
+      font-family: "Open Sans";
+      font-size: 18px;
+      line-height: 48px;
+      font-weight: 700;
+      padding: 0px 33px;
+      text-transform: uppercase;
+      transition: 0.3s;
+      float: none;
+      margin: 0px auto;
+      display: none;
+      clear: both; }
+      .content-bottom .load-more .alm-load-more-btn:hover {
+        background-color: #101716; }
+    .content-bottom .load-more .alm-reveal .blog-post {
+      background-color: #101716;
+      padding: 5px;
+      padding-bottom: 27px;
+      color: #fff;
+      margin: 5px 0.5%;
+      width: 32.33%;
+      border-bottom: 5px solid #c8302e;
+      position: relative;
+      min-height: 270px; }
+      .content-bottom .load-more .alm-reveal .blog-post:hover h3 {
+        color: #c8302e; }
+      .content-bottom .load-more .alm-reveal .blog-post::before {
+        content: "";
+        display: block;
+        position: absolute;
+        background: url("../img/content-news-corner.png") no-repeat center;
+        width: 24px;
+        height: 22px;
+        right: 14px;
+        bottom: 10px; }
+      .content-bottom .load-more .alm-reveal .blog-post .box-link {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        z-index: 4; }
+      .content-bottom .load-more .alm-reveal .blog-post h4 {
+        font-family: "Open Sans";
+        color: #c8302e;
+        font-size: 13px;
+        line-height: 15px;
+        font-weight: 700;
+        margin: 14px 0px 1px;
+        padding: 0px 4%; }
+      .content-bottom .load-more .alm-reveal .blog-post h3 {
+        font-family: "Open Sans";
+        font-size: 15px;
+        line-height: 15px;
+        font-weight: 600;
+        letter-spacing: -0.2px;
+        margin: 0px;
+        padding: 0px 4%;
+        transition: 0.3s; }
+      .content-bottom .load-more .alm-reveal .blog-post figure,
+      .content-bottom .load-more .alm-reveal .blog-post span {
+        max-height: 164px;
+        overflow: hidden; }
+      .content-bottom .load-more .alm-reveal .blog-post img {
+        margin: 0 auto;
+        width: 100%; }
+  .content-bottom .news-post figure,
+  .content-bottom .news-post span {
+    max-height: 164px;
+    overflow: hidden; }
+  .content-bottom .page-title {
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-left: 20px;
+    margin: 10px 0px 17px; }
+  .content-bottom p,
+  .content-bottom li,
+  .content-bottom em,
+  .content-bottom strong {
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 20px; }
+  .content-bottom p > a {
+    color: #c8302e;
+    font-family: "Open Sans";
+    font-size: 15px;
+    line-height: 18px; }
+    .content-bottom p > a:hover {
+      color: #fff;
+      text-decoration: none; }
+  .content-bottom .instruction {
+    padding: 0px;
+    padding-right: 10px;
+    background-color: #222;
+    margin-top: -57px;
+    left: 16px;
+    border-bottom: 5px solid #c8302e; }
+    .content-bottom .instruction h2 {
+      color: #fff;
+      font-family: "Open Sans";
+      font-size: 18px;
+      line-height: 18px;
+      text-transform: uppercase;
+      font-weight: 700;
+      padding: 0px 30px;
+      margin-bottom: 60px; }
+    .content-bottom .instruction p,
+    .content-bottom .instruction li {
+      color: #fff;
+      font-family: "Open Sans";
+      font-size: 15px;
+      line-height: 18px;
+      display: flex;
+      margin-bottom: 40px; }
+  .content-bottom .download-link {
+    position: relative;
+    background-color: #d43006;
+    margin: 0px 30px 130px !important;
+    background-image: url("../img/download-arrow.png");
+    background-repeat: no-repeat;
+    background-position: 97% center;
+    transition: 0.3s; }
+    .content-bottom .download-link:hover {
+      background-color: #000; }
+    .content-bottom .download-link a {
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0px;
+      left: 0px;
+      z-index: 4;
+      background: none !important;
+      border: 0 !important;
+      box-shadow: none !important;
+      text-indent: -10000px; }
+    .content-bottom .download-link .download-title {
+      display: flex;
+      align-items: center;
+      min-height: 72px;
+      background-image: url("../img/footer-logo.png");
+      background-repeat: no-repeat;
+      background-position: 16px center; }
+      .content-bottom .download-link .download-title h2,
+      .content-bottom .download-link .download-title h2 > span {
+        font-family: "Open Sans";
+        color: #fff;
+        text-transform: uppercase; }
+      .content-bottom .download-link .download-title h2 {
+        margin: 0px;
+        margin-left: 43px;
+        font-size: 21px;
+        line-height: 25px;
+        font-weight: 800; }
+      .content-bottom .download-link .download-title h2 > span {
+        margin: 0px;
+        margin-left: 15px;
+        font-size: 18px;
+        line-height: 21px;
+        font-weight: 700;
+        letter-spacing: 2px; }
+    .content-bottom .download-link .works-on {
+      padding-left: 0px;
+      display: flex;
+      align-items: center;
+      min-height: 72px;
+      position: initial;
+      color: #fff;
+      font-family: "Open Sans";
+      font-size: 15px;
+      line-height: 18px; }
+  .content-bottom .buy {
+    padding: 20px; }
+    .content-bottom .buy > div {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px; }
+    .content-bottom .buy h2 {
+      color: #fff;
+      margin: 0px;
+      font-size: 21px;
+      line-height: 25px;
+      font-weight: 800;
+      text-transform: uppercase;
+      transition: 0.3s; }
+    .content-bottom .buy p {
+      margin: 0px;
+      margin-left: 10px;
+      transition: 0.3s; }
+      .content-bottom .buy p a {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        z-index: 4;
+        text-indent: -10000px; }
+    .content-bottom .buy:hover h2,
+    .content-bottom .buy:hover p {
+      color: #d13017; }
+  .content-bottom .wiki,
+  .content-bottom .post {
+    padding: 35px 5%; }
+    .content-bottom .wiki .post-text,
+    .content-bottom .post .post-text {
+      padding: 0px; }
+    .content-bottom .wiki .post-image,
+    .content-bottom .post .post-image {
+      padding-right: 0px; }
+  .content-bottom .download .download-post h2 {
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    border-bottom: 5px solid #c8302e;
+    padding-left: 25px;
+    padding-right: 5px;
+    padding-bottom: 7px;
+    margin-left: -25px; }
+  .content-bottom .related-posts h2 {
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 18px;
+    line-height: 62px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    padding: 0px 20px; }
+  .content-bottom .blog-posts {
+    margin: 10px 0px; }
+  .content-bottom .download-post {
+    padding: 20px 3%; }
+  .content-bottom .form {
+    margin-top: 140px;
+    padding: 0px; }
+    .content-bottom .form .row {
+      margin-bottom: 17px; }
+      .content-bottom .form .row label {
+        font-family: "Open Sans";
+        color: #fff;
+        font-size: 18px;
+        line-height: 18px;
+        text-transform: uppercase;
+        font-weight: 700;
+        display: block;
+        margin-top: 6px; }
+      .content-bottom .form .row span input,
+      .content-bottom .form .row span textarea {
+        background-color: #000;
+        letter-spacing: -0.1px;
+        border: 2px solid #555;
+        color: #fff; }
+        .content-bottom .form .row span input::-webkit-input-placeholder,
+        .content-bottom .form .row span textarea::-webkit-input-placeholder {
+          color: #525252;
+          font-style: italic; }
+        .content-bottom .form .row span input::-moz-placeholder,
+        .content-bottom .form .row span textarea::-moz-placeholder {
+          color: #525252;
+          font-style: italic; }
+      .content-bottom .form .row span input {
+        width: 100%;
+        height: 49px;
+        padding-left: 20px;
+        outline-color: #d13017; }
+      .content-bottom .form .row span textarea {
+        width: 100%;
+        padding: 15px 20px;
+        outline-color: #d13017;
+        height: 197px; }
+      .content-bottom .form .row .ajax-loader {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        margin: 0px;
+        right: 140px;
+        top: 14px; }
+      .content-bottom .form .row .send {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: -11px; }
+        .content-bottom .form .row .send input {
+          background-color: #d13017;
+          border: none;
+          color: #fff;
+          font-family: "Open Sans";
+          font-size: 18px;
+          line-height: 48px;
+          font-weight: 700;
+          padding: 0px 33px;
+          text-transform: uppercase;
+          transition: 0.3s; }
+          .content-bottom .form .row .send input:hover {
+            background-color: #101716; }
+    .content-bottom .form div.wpcf7-validation-errors {
+      border: 2px solid #d13017;
+      color: #fff; }
+
+.content-bottom .attribute-title li,
+.content-bottom .attribute-value li {
+  font-family: "Open Sans";
+  font-size: 22px;
+  line-height: 26px;
+  padding: 0px;
+  margin: 0px; }
+.content-bottom .attribute-title li {
+  color: #c8302e; }
+
+.content-bottom .wiki-post {
+  background-color: rgba(255, 255, 255, 0.05); }
+  .content-bottom .wiki-post .wiki-text {
+    background-color: transparent; }
+  .content-bottom .wiki-post .wiki-text::after {
+    width: 560px;
+    height: 560px;
+    background-color: rgba(255, 255, 255, 0.1);
+    left: -33px;
+    top: -46px; }
+
+.scroll-content {
+  width: calc(100% - 79px);
+  display: block;
+  height: 33px;
+  position: absolute;
+  left: 40px;
+  bottom: -143px;
+  background-color: #222; }
+
+.scroll-content-btn {
+  position: absolute;
+  left: 0;
+  width: 20px;
+  height: 33px;
+  background-color: #d13017;
+  background-image: url("../img/slide-stripes.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer; }
+
+/*-------------------------------------------------------------------*/
+/*-------------------------------NEWS-------------------------------*/
+/*-----------------------------------------------------------------*/
+#news {
+  position: relative;
+  border-left: 5px solid #c8302e;
+  display: flex; }
+  #news .whats-new {
+    position: absolute;
+    right: 100%;
+    top: 0px;
+    display: flex;
+    background-color: #c8302e;
+    height: 61px;
+    width: 500px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end; }
+    #news .whats-new h2 {
+      font-family: "Open Sans";
+      color: #fff;
+      font-size: 17px;
+      line-height: 17px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin: 0px;
+      padding-right: 20px; }
+  #news figure {
+    max-height: 173px;
+    overflow: hidden; }
+
+.news-post {
+  background-color: #101716;
+  padding: 5px;
+  padding-bottom: 27px;
+  color: #fff;
+  margin-right: 1%;
+  border-bottom: 5px solid #c8302e;
+  position: relative; }
+  .news-post:hover h3 {
+    color: #c8302e; }
+  .news-post::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url("../img/content-news-corner.png") no-repeat center;
+    width: 24px;
+    height: 22px;
+    right: 14px;
+    bottom: 10px; }
+  .news-post:last-child::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #c8302e;
+    width: 5px;
+    height: calc(100% - 50px);
+    left: 100%;
+    bottom: -5px; }
+  .news-post .box-link {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 4; }
+  .news-post h4 {
+    font-family: "Open Sans";
+    color: #c8302e;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 700;
+    margin: 14px 0px 1px;
+    padding: 0px 4%; }
+  .news-post h3 {
+    font-family: "Open Sans";
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+    margin: 0px;
+    padding: 0px 4%;
+    transition: 0.3s; }
+  .news-post figure img {
+    width: 100%; }
+
+.content-bottom .news-post:last-child::after {
+  display: none; }
+
+.archive-post {
+  background-color: #101716;
+  padding: 5px;
+  padding-bottom: 27px;
+  color: #fff;
+  margin: 5px 0.5%;
+  border-bottom: 5px solid #c8302e;
+  position: relative;
+  width: 32.33%; }
+  .archive-post:hover h3 {
+    color: #c8302e; }
+  .archive-post::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url("../img/content-news-corner.png") no-repeat center;
+    width: 24px;
+    height: 22px;
+    right: 14px;
+    bottom: 10px; }
+  .archive-post .box-link {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 4; }
+  .archive-post img {
+    width: 100%; }
+  .archive-post h4 {
+    font-family: "Open Sans";
+    color: #c8302e;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 700;
+    margin: 14px 0px 1px;
+    padding: 0px 4%; }
+  .archive-post h3 {
+    font-family: "Open Sans";
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+    margin: 0px;
+    padding: 0px 4%;
+    transition: 0.3s; }
+
+/*-------------------------------------------------------------------*/
+/*------------------------GAME AND TRAILER--------------------------*/
+/*-----------------------------------------------------------------*/
+#game-and-trailer {
+  margin-top: 26px; }
+  #game-and-trailer .game,
+  #game-and-trailer .trailer {
+    border: 5px solid #101716;
+    padding: 0px;
+    position: relative; }
+    #game-and-trailer .game img,
+    #game-and-trailer .trailer img {
+      width: 100%; }
+    #game-and-trailer .game .text-box,
+    #game-and-trailer .trailer .text-box {
+      position: absolute;
+      display: block;
+      bottom: 17px;
+      left: 19px;
+      padding-right: 27px;
+      background: url("../img/content-posttitle-icon.png") no-repeat right top; }
+  #game-and-trailer .game {
+    margin-right: 0.8%;
+    overflow: hidden; }
+
+#game-and-trailer .trailer figure::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 59px;
+  height: 54px;
+  background: url("../img/content-thetrailer-playicon.png") no-repeat center;
+  top: 12px;
+  right: 8px; }
+
+#game-and-trailer .game:hover h2,
+#game-and-trailer .trailer:hover h2 {
+  color: #c8302e; }
+
+#game-and-trailer a {
+  width: 100%;
+  height: 100%;
+  text-indent: -10000px;
+  z-index: 10;
+  display: block;
+  position: absolute; }
+
+#game-and-trailer .text-box h3 {
+  font-family: "Open Sans";
+  color: #fff;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0px;
+  letter-spacing: 2.6px; }
+#game-and-trailer .text-box h2 {
+  font-family: "Open Sans";
+  color: #fff;
+  font-size: 44px;
+  line-height: 44px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0px;
+  letter-spacing: -1.1px;
+  transition: 0.3s; }
+#game-and-trailer .text-box a {
+  display: block;
+  position: absolute;
+  width: 469px;
+  height: 305px;
+  bottom: -17px;
+  left: -19px;
+  text-indent: -10000px;
+  z-index: 4; }
+
+/*-------------------------------------------------------------------*/
+/*---------------------WIKI SLIDER AND LINKS------------------------*/
+/*-----------------------------------------------------------------*/
+.wiki-slider-and-links {
+  margin-top: 6px; }
+
+.carousel-indicators {
+  bottom: 10px; }
+  .carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    background-color: #444;
+    border: none;
+    margin: 0px; }
+  .carousel-indicators .active {
+    background-color: #d13017; }
+
+.wiki-post {
+  padding: 0px;
+  background-color: #000;
+  display: flex;
+  align-items: center; }
+  .wiki-post .wiki-img,
+  .wiki-post .wiki-text {
+    padding: 0px; }
+  .wiki-post .wiki-text {
+    background-color: #121212;
+    z-index: 1;
+    position: relative;
+    padding-bottom: 67px; }
+  .wiki-post h2 {
+    font-family: "Open Sans";
+    color: #fff;
+    font-size: 34px;
+    line-height: 34px;
+    font-weight: 800;
+    margin: 0px;
+    margin-top: 16px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-top: 23px;
+    padding-left: 8.7%;
+    padding-right: 7.7%;
+    letter-spacing: -0.4px;
+    background: url("../img/content-posttitle-icon.png") no-repeat right top; }
+  .wiki-post h3 {
+    font-family: "Open Sans";
+    color: #fff;
+    font-size: 32px;
+    line-height: 60px;
+    font-weight: 400;
+    margin: 0px;
+    margin-top: 32px;
+    padding-left: 5.1%;
+    background-color: #d13017;
+    display: block;
+    position: relative;
+    z-index: 2; }
+    .wiki-post h3::after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 13px;
+      height: 60px;
+      top: 0px;
+      right: 100%;
+      background: url("../img/content-wiki-after.png") no-repeat center; }
+  .wiki-post .attribute-title,
+  .wiki-post .attribute-value {
+    width: 26.1%;
+    margin-top: 31px;
+    display: inline-block;
+    float: left;
+    list-style-type: none;
+    padding: 0px; }
+    .wiki-post .attribute-title li,
+    .wiki-post .attribute-value li {
+      font-family: "Open Sans";
+      font-size: 22px;
+      line-height: 26px;
+      padding: 0px;
+      margin: 0px; }
+  .wiki-post .attribute-title {
+    margin-right: 5%; }
+  .wiki-post .attribute-title li {
+    color: #c8302e;
+    text-align: right; }
+  .wiki-post .attribute-value li {
+    color: #fff;
+    text-align: left; }
+
+.wiki-text::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 200px;
+  height: 500px;
+  background-color: #121212;
+  z-index: -1;
+  transform: rotate(11deg);
+  top: 14px;
+  left: -50px; }
+
+.wiki-text a {
+  position: absolute;
+  bottom: 29px;
+  right: 26px;
+  font-family: "nulshockbold";
+  color: #fff;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  transition: 0.3s; }
+  .wiki-text a:hover, .wiki-text a:focus {
+    text-decoration: none;
+    color: #d13017; }
+
+.wiki-slider,
+.links {
+  padding: 0px; }
+
+.content-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #d13017;
+  margin-bottom: 12px;
+  height: 105px; }
+
+.content-bottom .links {
+  margin: 147px 0px 0px; }
+  .content-bottom .links .content-link {
+    padding: 0px; }
+    .content-bottom .links .content-link figure {
+      margin: 0 5%; }
+
+.links .content-link {
+  position: relative; }
+  .links .content-link figure {
+    margin-right: 6.3%;
+    margin-left: 9%; }
+  .links .content-link .text-box {
+    max-width: 150px;
+    width: 100%; }
+    .links .content-link .text-box h3 {
+      font-family: "Open Sans";
+      color: #fff;
+      font-size: 24px;
+      line-height: 29px;
+      font-weight: 800;
+      text-transform: uppercase;
+      margin: 0px;
+      transition: 0.3s;
+      letter-spacing: -0.8px; }
+    .links .content-link .text-box p {
+      font-family: "Open Sans";
+      color: #fff;
+      font-size: 16px;
+      line-height: 19px;
+      font-weight: 400;
+      margin: 0px;
+      letter-spacing: -0.6px; }
+    .links .content-link .text-box a {
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0px;
+      left: 0px;
+      z-index: 4;
+      text-indent: -10000px; }
+
+.links .content-link:hover h3 {
+  color: #101716; }
+
+/*-------------------------------------------------------------------*/
+/*-----------------------------FOOTER-------------------------------*/
+/*-----------------------------------------------------------------*/
+#footer {
+  background-color: #101716;
+  background-image: url("../img/footer-bg.png");
+  background-repeat: no-repeat;
+  background-position: center 150px;
+  background-size: cover;
+  padding: 0px;
+  padding-top: 212px;
+  margin-top: -150px; }
+  #footer #footer-inner {
+    max-width: 1006px;
+    width: 100%;
+    padding: 0px 20px;
+    position: relative; }
+
+#footer .row {
+  margin-left: 0px;
+  margin-right: 0px;
+  clear: both; }
+  #footer .row #social-inner {
+    padding: 0px;
+    display: flex;
+    align-items: center; }
+    #footer .row #social-inner h2 {
+      font-family: "Open Sans";
+      color: #fff;
+      font-size: 15px;
+      line-height: 15px;
+      font-weight: 800;
+      text-transform: uppercase;
+      margin: 0px;
+      margin-right: 8.4%;
+      letter-spacing: -0.4px; }
+    #footer .row #social-inner .social-icon {
+      margin-right: 10.4%;
+      width: 44px;
+      min-height: 50px; }
+    #footer .row #social-inner .social-icon:last-child {
+      margin-right: 0px; }
+    #footer .row #social-inner .pinterest {
+      width: 44px;
+      height: 44px;
+      background-image: url("../img/footer-pinterest-img.png");
+      background-repeat: no-repeat;
+      background-position: center top;
+      left: 50%;
+      margin-left: -22px;
+      top: 50%;
+      margin-top: -22px; }
+    #footer .row #social-inner .facebook {
+      width: 17px;
+      height: 34px;
+      background-image: url("../img/footer-facebook-img.png");
+      background-repeat: no-repeat;
+      background-position: center top;
+      left: 50%;
+      margin-left: -8px;
+      top: 50%;
+      margin-top: -17px; }
+    #footer .row #social-inner .youtube {
+      width: 42px;
+      height: 50px;
+      background-image: url("../img/footer-youtube-img.png");
+      background-repeat: no-repeat;
+      background-position: center top;
+      left: 50%;
+      margin-left: -21px;
+      top: 50%;
+      margin-top: -25px; }
+    #footer .row #social-inner .pinterest:hover,
+    #footer .row #social-inner .facebook:hover,
+    #footer .row #social-inner .youtube:hover {
+      background-position: center bottom; }
+
+.social-icon {
+  position: relative; }
+  .social-icon a {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 4;
+    text-indent: -10000px; }
+
+#link-groups {
+  margin-top: 55px; }
+  #link-groups .link-group {
+    padding: 0px; }
+    #link-groups .link-group h2 {
+      font-family: "Open Sans";
+      color: #d13017;
+      font-size: 14px;
+      line-height: 14px;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin: 0px;
+      margin-bottom: 3px; }
+    #link-groups .link-group p,
+    #link-groups .link-group a {
+      font-family: "Open Sans";
+      color: #fff;
+      font-size: 12px;
+      line-height: 22px;
+      font-weight: 600;
+      margin: 0px;
+      transition: 0.3s;
+      text-decoration: none; }
+    #link-groups .link-group a:hover {
+      color: #d13017; }
+
+#bottom {
+  position: relative;
+  height: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 35px; }
+  #bottom::after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 3000px;
+    margin-left: -1500px;
+    top: 0px;
+    left: 50%;
+    background-color: #000; }
+  #bottom #terms {
+    padding: 0px;
+    position: relative;
+    z-index: 1; }
+    #bottom #terms p,
+    #bottom #terms a {
+      color: #666;
+      font-family: "Open Sans";
+      font-size: 12px;
+      line-height: 12px;
+      font-weight: 600;
+      text-align: right;
+      margin: 0px;
+      transition: 0.3s;
+      text-decoration: none; }
+    #bottom #terms a:hover {
+      color: #fff; }
+
+#bottom #footer-icon a {
+  display: block;
+  width: 30px;
+  height: 36px;
+  position: relative;
+  background: url("../img/footer-logo.png") no-repeat center;
+  text-indent: -10000px;
+  z-index: 2;
+  float: right;
+  margin-right: 12%; }
+
+.topbutton {
+  height: 49px;
+  width: 49px;
+  position: fixed;
+  left: 46px;
+  bottom: 45px;
+  z-index: 10000;
+  background-image: url("../img/back-to-top.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #d13017;
+  display: block;
+  transition: 0.3s; }
+  .topbutton:hover {
+    background-color: #000; }
+
+.single-post #footer {
+  padding-top: 30px;
+  margin-top: 0px; }
+
+/*-------------------------------------------------------------------*/
+/*-----------------------------QUERY--------------------------------*/
+/*-----------------------------------------------------------------*/
+@media (max-width: 1274px) {
+  #main-content #main-content-inner {
+    margin-top: 0px; }
+    #main-content #main-content-inner #news {
+      padding-top: 56px; }
+    #main-content #main-content-inner::after {
+      display: none; }
+  #main-content #news {
+    border-right: 5px solid #c8302e; }
+  #main-content #news .whats-new {
+    right: 0px;
+    width: 100%;
+    z-index: 10;
+    justify-content: center;
+    top: -5px; }
+    #main-content #news .whats-new h2 {
+      padding-right: 0px; }
+
+  .news-post:last-child::after {
+    display: none; }
+
+  #main-content {
+    border-top: 5px solid #c8302e; } }
+@media (max-width: 1199px) {
+  .header-subtitle {
+    top: 170px;
+    font-size: 27px;
+    margin-left: -38vw;
+    max-width: 910px; } }
+@media (min-width: 992px) {
+  .wiki-slider {
+    width: 72.5%; }
+
+  .content-bottom .wiki-slider {
+    width: 100%; }
+
+  .wiki-slider-and-links .links {
+    width: 26.2%; }
+
+  .content-bottom .links .content-link {
+    width: 24%;
+    margin: 0 0.5%;
+    margin-bottom: 12px; } }
+@media (max-width: 991px) {
+  .wiki-slider-and-links .content-link {
+    width: 49%;
+    float: left;
+    margin: 5px 0.5%; }
+
+  .content-bottom .links .content-link {
+    width: 49%;
+    margin: 0 0.5%;
+    margin-bottom: 12px; }
+
+  #footer .link-group {
+    text-align: center; }
+
+  .header-subtitle {
+    top: 170px;
+    font-size: 27px;
+    margin-left: -46vw;
+    max-width: 910px; } }
+@media (min-width: 768px) {
+  #menu {
+    float: right; }
+
+  .news-post {
+    width: 32.66%; }
+    .news-post:last-child {
+      margin-right: 0px; }
+
+  #game-and-trailer .game,
+  #game-and-trailer .trailer {
+    width: 49.6%; }
+
+  #social-inner {
+    float: right;
+    width: 35%; }
+
+  .link-group {
+    margin-bottom: 20px; } }
+@media (max-width: 767px) {
+  #menu {
+    padding: 0px; }
+    #menu #logo {
+      left: 33px; }
+    #menu .navbar-collapse {
+      margin-top: 50px; }
+    #menu .navbar-toggle {
+      right: 10px;
+      border: none;
+      background-color: #c8302e;
+      border-radius: 0px; }
+    #menu .icon-bar {
+      background-color: #fff; }
+    #menu .nav {
+      display: block;
+      padding-left: 0px;
+      margin: 0px; }
+      #menu .nav li {
+        display: block; }
+        #menu .nav li a {
+          padding: 15px 34px; }
+    #menu .navbar-collapse::before,
+    #menu .nav::before {
+      display: none; }
+
+  #flex-slider .carousel-inner .item .carousel-caption {
+    display: none; }
+
+  #news {
+    display: block; }
+
+  #main-content #news {
+    border: none; }
+
+  .news-post {
+    margin: 10px auto;
+    float: none;
+    text-align: center;
+    border: 5px solid #c8302e; }
+    .news-post figure {
+      max-height: none;
+      overflow: visible; }
+      .news-post figure img {
+        margin: 0 auto;
+        width: 100%; }
+
+  .related-posts h2 {
+    text-align: center; }
+
+  .post-image {
+    padding: 0px; }
+    .post-image img {
+      margin: 30px auto 0; }
+
+  #game-and-trailer .game,
+  #game-and-trailer .trailer {
+    margin: 0 auto;
+    float: none; }
+
+  .wiki-slider-and-links .carousel-inner {
+    background-color: #121212; }
+  .wiki-slider-and-links img {
+    margin: 0 auto;
+    padding: 10px 0px; }
+  .wiki-slider-and-links .wiki-post {
+    display: block; }
+    .wiki-slider-and-links .wiki-post h2 {
+      width: 290px;
+      margin: 0 auto;
+      text-align: center;
+      display: block;
+      padding: 40px 0px 0px;
+      background-position: right 20px; }
+    .wiki-slider-and-links .wiki-post h3 {
+      text-align: center;
+      padding-left: 0px; }
+    .wiki-slider-and-links .wiki-post a {
+      bottom: 58px;
+      right: 50%;
+      margin-right: -26px; }
+    .wiki-slider-and-links .wiki-post .attribute-title {
+      width: 47.6%; }
+  .wiki-slider-and-links .wiki-text {
+    height: 470px; }
+    .wiki-slider-and-links .wiki-text::after {
+      display: none; }
+
+  .content-bottom .wiki-slider-and-links .wiki-text {
+    height: 530px; }
+
+  .content-bottom .links .content-link {
+    width: 49%;
+    margin: 0 0.5%;
+    margin-bottom: 12px; }
+
+  .content-bottom .load-more .alm-reveal .blog-post,
+  .archive-post {
+    width: 49%;
+    text-align: center;
+    float: none;
+    margin: 25px auto; }
+
+  .link-group {
+    margin-bottom: 40px; }
+
+  .path .bread,
+  .path .content-subtitle,
+  .path .archive-dropdown,
+  .path .wiki-menu {
+    margin-left: 10px;
+    width: calc(100% - 20px) !important; }
+  .path .content-subtitle {
+    text-align: left; }
+  .path #crumbs {
+    padding: 0px;
+    padding-left: 20px; }
+
+  .wiki-menu .nav {
+    margin: 0 auto;
+    width: calc(100% - 20px); }
+
+  .wiki-menu .nav li .dropdown-toggle {
+    text-align: left;
+    padding-right: 10px; }
+
+  .topbutton {
+    bottom: 55px; }
+
+  .content-bottom .instruction {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    left: 0px; }
+
+  .content-bottom .download-link .works-on {
+    padding-left: 20px; }
+
+  .wiki-menu .nav li .dropdown-menu {
+    position: absolute; } }
+@media (max-width: 479px) {
+  #game-and-trailer .game .text-box,
+  #game-and-trailer .trailer .text-box {
+    background-image: none; }
+
+  .wiki-slider-and-links .content-link {
+    width: 99%; }
+
+  #footer .row #social-inner {
+    flex-direction: column; }
+    #footer .row #social-inner h2 {
+      margin-right: 0px; }
+    #footer .row #social-inner .social-icon {
+      margin-right: 0;
+      margin-top: 20px; }
+
+  .content-bottom .links .content-link {
+    width: 100%; }
+
+  .link-group {
+    width: 100%; }
+
+  .content-bottom .download-link .download-title {
+    display: block; }
+
+  .content-bottom .download-link .download-title h2 {
+    line-height: 45px; }
+
+  .content-bottom .download-link .download-title h3 {
+    margin-left: 43px;
+    line-height: 13px; }
+
+  .content-bottom .load-more .alm-reveal .blog-post,
+  .archive-post {
+    width: 79%; }
+
+  .wiki-slider-and-links .wiki-post h2 {
+    background-image: none; } }
+@media (max-width: 400px) {
+  .ms-skin-default .ms-nav-next,
+  .ms-skin-default .ms-nav-prev {
+    bottom: calc(50% - 16px) !important; }
+
+  .scroll-content {
+    display: none; } }
+
+/*# sourceMappingURL=main.css.map */
